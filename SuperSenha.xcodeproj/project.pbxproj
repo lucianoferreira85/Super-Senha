@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F646471D270DEA48008FE8E4 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F646471C270DEA47008FE8E4 /* PasswordsViewController.swift */; };
+		F646471F270DEB7F008FE8E4 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F646471E270DEB7F008FE8E4 /* SecurityTipsViewController.swift */; };
+		F6464721270DEFB1008FE8E4 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6464720270DEFB1008FE8E4 /* PasswordGenerator.swift */; };
 		F69CF3A6270B500600A4B92F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CF3A5270B500600A4B92F /* AppDelegate.swift */; };
 		F69CF3A8270B500600A4B92F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CF3A7270B500600A4B92F /* SceneDelegate.swift */; };
 		F69CF3AA270B500600A4B92F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CF3A9270B500600A4B92F /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F646471C270DEA47008FE8E4 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		F646471E270DEB7F008FE8E4 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		F6464720270DEFB1008FE8E4 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 		F69CF3A2270B500600A4B92F /* SuperSenha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSenha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69CF3A5270B500600A4B92F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69CF3A7270B500600A4B92F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				F69CF3A7270B500600A4B92F /* SceneDelegate.swift */,
 				F69CF3A9270B500600A4B92F /* ViewController.swift */,
 				F69CF3AB270B500600A4B92F /* Main.storyboard */,
+				F6464720270DEFB1008FE8E4 /* PasswordGenerator.swift */,
+				F646471E270DEB7F008FE8E4 /* SecurityTipsViewController.swift */,
+				F646471C270DEA47008FE8E4 /* PasswordsViewController.swift */,
 				F69CF3AE270B500900A4B92F /* Assets.xcassets */,
 				F69CF3B0270B500900A4B92F /* LaunchScreen.storyboard */,
 				F69CF3B3270B500900A4B92F /* Info.plist */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69CF3AA270B500600A4B92F /* ViewController.swift in Sources */,
+				F646471D270DEA48008FE8E4 /* PasswordsViewController.swift in Sources */,
+				F6464721270DEFB1008FE8E4 /* PasswordGenerator.swift in Sources */,
 				F69CF3A6270B500600A4B92F /* AppDelegate.swift in Sources */,
 				F69CF3A8270B500600A4B92F /* SceneDelegate.swift in Sources */,
+				F646471F270DEB7F008FE8E4 /* SecurityTipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucianoferreira.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucianoferreira.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
