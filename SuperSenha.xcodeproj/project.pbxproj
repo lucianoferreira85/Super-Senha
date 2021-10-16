@@ -18,6 +18,19 @@
 		F69CF3B2270B500900A4B92F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69CF3B0270B500900A4B92F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F6B9D4B72718F283002409C6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F646471C270DEA47008FE8E4 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
 		F646471E270DEB7F008FE8E4 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +99,7 @@
 				F69CF39E270B500500A4B92F /* Sources */,
 				F69CF39F270B500500A4B92F /* Frameworks */,
 				F69CF3A0270B500500A4B92F /* Resources */,
+				F6B9D4B72718F283002409C6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -102,7 +116,7 @@
 		F69CF39A270B500500A4B92F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					F69CF3A1270B500500A4B92F = {
@@ -296,17 +310,20 @@
 		F69CF3B7270B500900A4B92F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VMA75PS78F;
+				DEVELOPMENT_TEAM = PJ2GKCADDY;
 				INFOPLIST_FILE = SuperSenha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lucianoferreira.SuperSenha;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucianoferreira.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -315,17 +332,20 @@
 		F69CF3B8270B500900A4B92F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VMA75PS78F;
+				DEVELOPMENT_TEAM = PJ2GKCADDY;
 				INFOPLIST_FILE = SuperSenha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lucianoferreira.SuperSenha;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucianoferreira.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

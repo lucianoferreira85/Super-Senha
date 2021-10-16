@@ -397,10 +397,17 @@ Muitos ataques podem ser evitados ao ativar serviços básicos de proteção na 
                                     </fragment>
                                     <fragment>
                                         <string key="content"> várias senhas complexas, considere a instalação de um gerenciadores de senhas 
-Há diversos programas disponíveis que armazenam os dados de maneira segura e ajudam os mais esquecidos.</string>
+</string>
                                         <attributes>
                                             <color key="NSColor" systemColor="labelColor"/>
                                             <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Há diversos programas disponíveis que armazenam os dados de maneira segura e ajudam os mais esquecidos.">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
